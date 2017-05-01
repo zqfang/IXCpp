@@ -1,10 +1,15 @@
 # ICpp
 Interactive C++ 
 
-### Learning C++ in Jupyter notebook 
+## Learning C++ in Jupyter notebook 
+
 based on [Cling](https://github.com/root-project/cling)
 
-### C++ kernel installation for Jupyter notebook
+### C++ kernel for Jupyter notebook
+
+Install [Cling](https://github.com/root-project/cling)
+
+then, excecute cmd blew
 
     export PATH=/cling-install-prefix/bin:$PATH
     cd /cling-install-prefix/share/cling/Jupyter/kernel
@@ -19,4 +24,6 @@ based on [Cling](https://github.com/root-project/cling)
     jupyter-kernelspec install [--user] cling-cpp14
     jupyter-kernelspec install [--user] cling-cpp11
 
+
+### Run
 
