@@ -42,5 +42,5 @@ Good introduction to start with interatctive C++: [On-the-fly-C++](http://blog.c
     
     int (*pFunc)(int a) = func;
     
-    printf("%d,%p", num, p)
+    printf("%d,%p", num, p);
 ```
