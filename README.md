@@ -3,13 +3,11 @@ Interactive C++ for Data Analysis
 
 ## Learning C++ in Jupyter Notebook 
 
-C++ on the fly
-
-You have to install [Cling](https://github.com/root-project/cling) kernel for Jupyter first.
+Good introduction to start with interatctive C++: [On-the-fly-C++](http://blog.coldflake.com/posts/On-the-fly-C++/)
 
 ### C++ kernel for Jupyter Notebook
 
-1. Downlaod [Cling](https://github.com/root-project/cling)
+1. You have to install [Cling](https://github.com/root-project/cling)  first.
 
 2. Excecute the CMD blew to add C++ kernel to the Jupyter envrionment:
 
@@ -30,18 +28,19 @@ You have to install [Cling](https://github.com/root-project/cling) kernel for Ju
 
 ### Run Example
 
+
 ```cpp
     #include<stdio.h>
     
     int num=5;
     int *p= &num;
     
-    int add(int a) 
+    int func(int a) 
     {
         printf("%d",a);
     }
     
-    int (*pAdd)(int a) = add;
+    int (*pFunc)(int a) = func;
     
     printf("%d,%p", num, p)
 ```
