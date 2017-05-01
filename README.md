@@ -41,7 +41,7 @@ You have to install [Cling](https://github.com/root-project/cling) kernel for Ju
         printf("%d",a);
     }
     
-    int (*p)(int a) = add;
+    int (*pAdd)(int a) = add;
     
     printf("%d,%p", num, p)
 ```
