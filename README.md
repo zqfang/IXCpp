@@ -34,7 +34,7 @@ C++:
     #include<iostream>
     
     int arr[3] = { 1, 2, 3};
-    int(&ra)[10](a);
+    int(&ra)[3](a);
     
     for (auto data: ra)//C++11
 	{
