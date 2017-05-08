@@ -28,8 +28,27 @@ Good introduction to start with interatctive C++: [On-the-fly-C++](http://blog.c
 
 ### Run Example
 
+C++:
 
 ```cpp
+    #include<iostream>
+    
+    int arr[3] = { 1, 2, 3};
+    int(&ra)[10](a);
+    
+    for (auto data: ra)//C++11
+	{
+		data = i + 5;
+		std::cout << data << std::endl;
+	}
+    
+    std::cout << &arr << &ra << std::endl;
+   
+```
+
+C:
+
+```c
     #include<stdio.h>
     
     int num=5;
