@@ -5,6 +5,9 @@ Interactive C++ for Data Analysis
 
 Good introduction to start with interatctive C++: [On-the-fly-C++](http://blog.coldflake.com/posts/On-the-fly-C++/)
 
+## Cling short tutorial
+[Cling-cpp-interpreter](https://solarianprogrammer.com/2012/08/14/cling-cpp-11-interpreter/)
+
 ### C++ kernel for Jupyter Notebook
 
 1. You have to install [Cling](https://github.com/root-project/cling)  first.
