@@ -1,9 +1,16 @@
 # ICpp
 Interactive C++ for Data Analysis
 
+This repo stores my personal C++ notes. Also could be a good resource for learning C++.
+ 
 ## Learning C++ in Jupyter Notebook 
 
 Good introduction to start with interatctive C++: [On-the-fly-C++](http://blog.coldflake.com/posts/On-the-fly-C++/)
+
+# Why use Cling in Jupyter
+
+It's definitely true. 
+> It’s not perfect but can be a real timesaver when fooling around with C or C++ code. Especially for little bits and pieces you want to try out while working on a C/C++ codebase, it’s much less distracting to fire up a cling interpreter than to setup an example project.
 
 ## Cling short tutorial
 [Cling-cpp-interpreter](https://solarianprogrammer.com/2012/08/14/cling-cpp-11-interpreter/)
