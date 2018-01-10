@@ -15,11 +15,13 @@ It's definitely true.
 ## Cling short tutorial
 [Cling-cpp-interpreter](https://solarianprogrammer.com/2012/08/14/cling-cpp-11-interpreter/)
 
-### C++ kernel for Jupyter Notebook
+###  Install C++ kernel for Jupyter Notebook
 
-1. You have to install [Cling](https://github.com/root-project/cling)  first.
+1. Easy way to install: use [xeus-cling](https://github.com/QuantStack/xeus-cling)
 
-2. Excecute the CMD blew to add C++ kernel to the Jupyter envrionment:
+2. Only use ``Cling`` :
+  - You have to install [Cling](https://github.com/root-project/cling)  first.
+  - Excecute the CMD blew to add C++ kernel to the Jupyter envrionment:
 
 ```bash
     $ export PATH=/cling-install-prefix/bin:$PATH
@@ -37,6 +39,8 @@ It's definitely true.
 ```
 
 ### Run Example
+
+After installation, star jupyter notebook and play.
 
 C++ Example:
 

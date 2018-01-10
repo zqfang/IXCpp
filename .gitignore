@@ -1,0 +1,11 @@
+downloads
+dist
+*.pyc
+*.pyo
+*.tmp*
+.cache
+.DS_Store
+*tmp
+# vim
+.*swp
+*.ipynb_checkpoints
