@@ -9,3 +9,7 @@ dist
 # vim
 .*swp
 *.ipynb_checkpoints
+# Clion
+xninja/.idea
+xninja/CMakeLists.txt
+xinja/cmake-build-debug
