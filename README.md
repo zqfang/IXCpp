@@ -1,7 +1,7 @@
-# ICpp
-Interactive C++ for Data Analysis
+# ITorchCpp
+Interactive torch C++ for Data Analysis
 
-This repo stores my personal C++ notes for learning C++.
+This repo stores my personal C++ notes for learning torch C++.
 
 ## Learning C++ in Jupyter Notebook
 
@@ -18,6 +18,19 @@ It's definitely true.
 ###  Install C++ kernel for Jupyter Notebook
 
 1. Easy way to install via conda: use [xeus-cling](https://github.com/QuantStack/xeus-cling)
+```shell
+    conda create -n cling
+    conda activate cling
+    conda install xeus-cling -c conda-forge
+    
+    #register the kernelspec for C++17/C++14/C++11:
+    #the user can install whichever kernel(s) they
+    #wish:
+    cd ${MINICONDA}/envs/cling/share/Jupyter/kernel
+    $ jupyter-kernelspec install [--user] xcpp17
+    $ jupyter-kernelspec install [--user] xcpp14
+    $ jupyter-kernelspec install [--user] xcpp11
+```
 
 2. Use latest ``Cling`` only:
   - You have to install [Cling](https://github.com/root-project/cling)  first.
@@ -48,7 +61,7 @@ C++ Example:
     #include<iostream>
 
     int arr[3] = { 1, 2, 3};
-    int(&ra)[3](a);
+    int(&ra)[3](arr);
 
     for (auto data: ra)//C++11
 	{

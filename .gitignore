@@ -1,15 +1,78 @@
-downloads
-dist
-*.pyc
-*.pyo
-*.tmp*
-.cache
-.DS_Store
-*tmp
-# vim
-.*swp
 *.ipynb_checkpoints
-# Clion
-xninja/.idea
-xninja/CMakeLists.txt
-xinja/cmake-build-debug
+cmake-build-debug
+# project dirs
+datasets
+models/*.weights
+lib/libtorch
+libtorch
+build
+dist
+.DS_Store
+.idea
+
+# pytorch/python/numpy formats
+*.pth
+*.pt
+*.pkl
+*.npy
+
+# ipython/jupyter notebooks
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.pyc
+*.pyd 
+
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+### VisualStudioCode ###
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# python
+__pycache__
+_ext
